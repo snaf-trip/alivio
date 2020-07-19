@@ -1,0 +1,516 @@
+.header {
+  height: 85px;
+  border: 1px solid #d6d6d6;
+  display: flex;
+
+  align-items: center;
+}
+
+.logo {
+  padding-left: 205px;
+}
+
+.navigation-links {
+  padding-left: 128px;
+}
+
+.navigation-link {
+  font-family: "Lato", sans-serif;
+  color: #292929;
+  text-decoration: none;
+  margin-right: 54px;
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.battons-group {
+  margin-left: 210px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.signIn {
+  border: none;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+.start {
+  background: #01996d;
+  border: 1px solid #01996d;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  width: 183px;
+  height: 51px;
+}
+
+.first-block {
+  background-image: url(../img/first-back.png);
+  width: 100%;
+  height: 671px;
+}
+
+.title {
+  margin: 0;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+
+  color: #01996d;
+}
+
+.first-main {
+  width: 320px;
+  height: 288px;
+  padding-top: 175px;
+  padding-left: 206px;
+}
+
+.paragraph {
+  color: #484848;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.findYourWay {
+  width: 170px;
+  height: 48px;
+  text-align: center;
+  border: 1px solid #01996d;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #01996d;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  margin-top: 18px;
+}
+
+.second-block {
+  width: 1059px;
+  height: 1039px;
+  margin-top: 126px;
+  margin-left: 206px;
+  margin-right: 232px;
+}
+
+.firstInSecond {
+  display: flex;
+  align-items: center;
+}
+
+.howItWorks {
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.title2 {
+  color: #01996d;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 157%;
+  margin: 0;
+}
+
+.paragraph2 {
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  width: 1000px;
+}
+
+/* 3 info blocks */
+
+.infoBlocks {
+  display: flex;
+}
+
+.infoBlock1 {
+  width: 292px;
+  height: 937px;
+}
+
+.titleNumName {
+  width: 201px;
+  height: 168px;
+  display: flex;
+  align-items: baseline;
+}
+
+.num1 {
+  color: rgba(1, 153, 109, 0.2);
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 112px;
+  line-height: 150%;
+  margin: 0;
+  position: relative;
+}
+
+.span-title {
+  color: #000000;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: -50px;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.paragraphInInfoBlock {
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  width: 284px;
+  margin: 0;
+}
+
+.fotoInfoBlock {
+  width: 292px;
+  padding-top: 60px;
+}
+
+/* 2 block */
+
+.infoBlock2 {
+  width: 292px;
+  height: 937px;
+  padding-left: 95px;
+  padding-top: 205px;
+}
+
+.num2 {
+  color: rgba(1, 153, 109, 0.2);
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 112px;
+  line-height: 150%;
+  margin: 0;
+  position: relative;
+}
+
+.span-title2 {
+  color: #000000;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: -70px;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.titleNumName2 {
+  width: 294px;
+  height: 168px;
+  display: flex;
+  align-items: baseline;
+}
+
+.paragraphInInfoBlock2 {
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  width: 294px;
+  margin: 0;
+}
+
+/* 3 block */
+
+.infoBlock3 {
+  width: 292px;
+  height: 937px;
+  padding-left: 95px;
+}
+
+.num3 {
+  color: rgba(1, 153, 109, 0.2);
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 112px;
+  line-height: 150%;
+  margin: 0;
+  position: relative;
+}
+
+.span-title3 {
+  color: #000000;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: -40px;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.titleNumName3 {
+  width: 294px;
+  height: 168px;
+  display: flex;
+  align-items: baseline;
+}
+
+.paragraphInInfoBlock3 {
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  width: 302px;
+  margin: 0;
+}
+
+/* 3 main (video) */
+
+.thrid-block {
+  width: 1440px;
+  height: 691px;
+  background-color: #31726a;
+  display: flex;
+}
+
+.text-box {
+  width: 435px;
+  padding-bottom: 57px;
+  padding-top: 232px;
+  margin-left: 155px;
+}
+
+.title3 {
+  color: #ffffff;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  margin: 0;
+  line-height: 157%;
+  padding-bottom: 33px;
+}
+
+.span3 {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.letsGetStarted {
+  width: 180px;
+  height: 48px;
+  color: #ffffff;
+  background: #01996d;
+  border: 1px solid #01996d;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-self: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  margin-left: 155px;
+}
+
+.video {
+  height: 387px;
+  width: 671px;
+  background-image: url(../img/video.png);
+  margin-top: 171px;
+  margin-bottom: auto;
+  margin-right: 154px;
+  margin-left: auto;
+}
+
+.video-play {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin: auto;
+  margin-top: 25%;
+}
+
+/* 4 block */
+
+.fourth-block {
+  width: 1027px;
+  height: 486px;
+  display: flex;
+  margin-top: 90px;
+  margin-left: 206px;
+}
+
+.big-photo {
+  width: 478px;
+  height: 429px;
+  z-index: 1;
+}
+
+.card {
+  width: 222px;
+  height: 219px;
+  background-color: #ffffff;
+  box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+  border-radius: 5px;
+  display: grid;
+  align-content: center;
+  /* border: #000000 solid 1px; */
+  margin-top: -164px;
+  margin-left: -52px;
+  position: absolute;
+}
+
+.first {
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.line {
+  border: 0.745942px solid #000000;
+  width: 94px;
+  margin-right: auto;
+  margin-left: 63px;
+}
+
+.miniImg {
+  padding-top: 9px;
+  margin-left: 83px;
+}
+
+.name {
+  padding-top: 7px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 11.9351px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.titleInCard {
+  text-align: center;
+  color: #000000;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 157%;
+  margin: 0;
+  padding-top: 11px;
+}
+
+.ulCard {
+  margin: 0;
+}
+
+.li {
+  font-family: "Lato", sans-serif;
+  color: #000000;
+  font-size: 10.6195px;
+  line-height: 15px;
+  font-style: normal;
+  padding-top: 8px;
+}
+
+.main4 {
+  width: 438px;
+  height: 309px;
+  padding-left: 64px;
+}
+
+.ourProduct {
+  font-size: 18px;
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+
+.titleIN4 {
+  color: #01996d;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 157%;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.paragraph4 {
+  width: 397px;
+  height: 60px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #484848;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.findYourWay2 {
+  width: 170px;
+  height: 48px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.footer {
+  width: 1440px;
+  height: 490px;
+  background: #245852;
+  margin-top: 126px;
+}
+
+.footerUl {
+  list-style: none;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  padding-top: 71px;
+  padding-left: 206px;
+}
+
+.footerLi {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 45px;
+}
+
+.footerLifirst {
+  font-weight: 900;
+  font-size: 30px;
+}
